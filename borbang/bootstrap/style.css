@@ -1,0 +1,24 @@
+body {
+	background:;
+}
+nav{
+	height: 100px;
+}
+.carousel{
+	background: blue;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50vw;
+}
+#listbuku{
+	width: 24rem;
+	height: 15rem;
+}
+#tambah{
+	display: none;
+	transition: 1s;
+}
+#listbuku:hover #tambah{
+	transition: 1s;
+	display: inline-flex;
+}
